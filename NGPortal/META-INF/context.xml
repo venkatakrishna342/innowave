@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/DBTPortal">
+ 	<Resource 	auth="Container" 
+				driverClassName="com.mysql.jdbc.Driver" 
+				maxTotal="1000" 
+				maxIdle="30"
+ 				maxWaitMillis="100000" 
+ 				type="javax.sql.DataSource" 
+ 				validationQuery="select 1" 
+ 				testOnBorrow="true" 
+ 				name="jdbc/DBTPortal" 
+ 				url="jdbc:mysql://10.10.46.165:3306/dbtportal?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;autoReconnectForPools=true" 
+ 				username="root" 
+ 				password="Wh0@m!=reign" 
+ 	/>  
+</Context>
+
+ <!--  name="jdbc/DBTPortal" url="jdbc:mysql://10.10.46.165:3306/dbtportal?autoReconnect=true;useUnicode=yes;characterEncoding=UTF-8;" username="root" password="Wh0@m!=reign"/> -->
+  <!-- name="jdbc/DBTPortal" url="jdbc:mysql://10.10.46.177:3306/dbtportal" username="root" password="Wh0@m!=reign"/> -->
+ 
+ 
